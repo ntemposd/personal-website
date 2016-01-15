@@ -1,9 +1,12 @@
 # personal-page
 simple personal webpage 
 
-this is the code of my personal webpage
+this is the code of my personal webpage that i'm still developing
 
-next up -------------------------------
+if a begginer, don't try to use it before I document it
 
-# add-contact-form
-# document page's code      
+next up: 
+-------------------------------
+
+*add-contact-form
+*document page's code      
