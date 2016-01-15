@@ -1,11 +1,11 @@
-# personal-page
-## simple personal webpage 
+# personal-webplace
+## simple 3-page personal website
 
-this is the code of my personal webpage that i'm still developing
+here is the code of my personal webplace; being always under development 
 
-if a begginer, don't try to use it before I document it
+don't try to use it before i document it :)
 
-*next up*: 
+**next up**: 
 -------------------------------
 
 * add-contact-form
