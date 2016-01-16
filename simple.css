@@ -98,7 +98,7 @@ a:hover {
 @media (max-width: 481px){
 .xp{
 	padding-top: 13px;
-	padding-right: 3%;
+	padding-right: 5%;
 	padding-left: 3%;
 	font-size: small;
 	}
@@ -111,8 +111,8 @@ a:hover {
 @media (max-width: 641px){
 .xp{
 	padding-top: 13px;
-	padding-right: 3%;
-	padding-left: 3%;
+	padding-right: 15%;
+	padding-left: 15%;
 	font-size: small;
 	}
 .footer {
@@ -124,8 +124,8 @@ a:hover {
 @media (max-width: 961px){
 .xp{
 	padding-top: 13px;
-	padding-right: 3%;
-	padding-left: 3%;
+	padding-right: 15%;
+	padding-left: 15%;
 	font-size: small;
 	}	
 ul{
@@ -136,8 +136,8 @@ ul{
 @media (max-width: 1025px){
 .xp{
 	padding-top: 13px;
-	padding-right: 3%;
-	padding-left: 3%;
+	padding-right: 15%;
+	padding-left: 15%;
 	font-size: small;
 	}	
 ul {
