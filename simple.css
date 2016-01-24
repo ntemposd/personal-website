@@ -2,7 +2,7 @@ html,body {
 	height: 100%;
 	font-family: "Lucida Console", Monaco, monospace;
 	padding-bottom: 40px !important;
-	background: url(bg.png) no-repeat center center fixed;
+	background: url(bg1.png) no-repeat center center fixed;
 	color: #ffffff;
 	margin-bottom: 0px !important;
 }	
@@ -21,6 +21,19 @@ a{
 
 a:hover {
     color: black;
+}
+
+
+.form-control{
+	width: 50%;
+}
+
+.btn-primary{
+	background: black;
+}
+
+.btn-primary:hover{
+	background: #660198;
 }
 
 .xp{
