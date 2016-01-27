@@ -97,7 +97,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="#"><strong>home</strong></a></li>
-			<li><a href="portfolio.html"><strong>projects</strong></a></li>
+			<li><a href="/bio/"><strong>projects</strong></a></li>
 			<li><a href="bio.html"><strong>bio</strong></a></li>
 		</ul>
 	</div>
@@ -106,9 +106,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<div class="row">
 		<div class="col-lg-7">
 			<h1><strong>Dimitri Ntempos</strong></h1>
-			<h4><strong>Freelance Project Manager</strong></h4>
+			<h2><strong>Freelance Project Manager</strong></h2>
 			</br>
-			<p><strong>hi!</strong> my name is dimitri. my passion is to design, implement and support tech products. in my previous life i was an Art Monkey, currently i paint; write; backlog; manage executions; market and communicate. alongside daytime i love devoting time and energy for projects adding value to the community</p>
+			<p><strong>hi! my name is dimitri. my passion is to design, implement and support tech products. in my previous life i was an Art Monkey, currently i paint; write; backlog; manage executions; market and communicate. alongside daytime i love devoting time and energy for projects adding value to the community</strong></p>
 			</br>
 			<h5><strong>Wanna talk? print a line</strong></h5>
 				<form class="form-horizontal" role="form" method="post" action="index.php">
