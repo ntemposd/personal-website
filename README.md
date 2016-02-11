@@ -1,12 +1,13 @@
 # personal-webplace
 ## simple responsive 3-page personal website
 
-here is the code of my personal webplace; being always under development 
+This is the code of my personal website; being always under development 
 
 don't try to use it before i document it :)
 
 **next up**: 
 -------------------------------
 
-* add-contact-form
-* document page's code      
+* move contact-form in a different page
+* change slider to project boxes - sliders became outdated after 2004 :)
+* document website's code      
