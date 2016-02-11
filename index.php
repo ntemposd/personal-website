@@ -41,32 +41,30 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <head>
 	<meta charset="utf-8"/>
 	
-	<title>dimitri ntempos | welcome on my personal webplace!</title>
+	<title>Dimitri Ntempos</title>
 	<meta http-equiv="Content-Type" content="text/html">
-	<meta name="description" content="dimitri in brief!">
-	<meta name="keywords" content="Technology, Software, Development, Marketing, Financial, Agile, Product Management">
-	<meta name="author" content="dimitri ntempos">
+	<meta name="keywords" content="Tech, Agile, Product Management, Marketing, Financial">
+	<meta name="author" content="Dimitri Ntempos">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<!-- Schema.org markup for Google+ -->
-	<meta itemprop="name" content="dimitri in brief!">
-	<meta itemprop="description" content="hi! i am dimitri! wanna work with me?">
+	<meta itemprop="name" content="Dimitri Ntempos Personal Page">
+	<meta itemprop="description" content="Hi! I'm Dimitri! Wanna work with me?">
 	<meta itemprop="image" content="http://ntemposd.me/bg.png">
 	
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ntemposd">
-	<meta name="twitter:title" content="dimitri in brief!">
+	<meta name="twitter:title" content="Welcome to my Page!">
 	<meta name="twitter:image" content="http://ntemposd.me/bg.png">
-	<meta name="twitter:description" content="hi! i am dimitri! wanna work with me?">
+	<meta name="twitter:description" content="Hey! i am Dimitri! Wanna work with me?">
 	
 	<!-- Open Graph data -->
-	<meta property="og:title" content="dimitri in brief!">
-	<meta property="og:site_name" content="ntemposd.me">
-	<meta property="og:url" content="http://ntemposd.me">
-	<meta property="og:description" content="hi i am dimitri! wanna work with me?">
+	<meta property="og:title" content="Dimitri Ntempos">
+	<meta property="og:description" content="Freelance Project Manager">
+	<meta property="og:url" content="http://ntemposd.me/">
 	<meta property="og:image" content="http://ntemposd.me/bg.png">
-	<meta property="og:type" content="website">
+	<meta property="og:type" content="professional.website">
 	
 	<!-- Style -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -97,7 +95,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="#"><strong>home</strong></a></li>
-			<li><a href="/bio/"><strong>projects</strong></a></li>
+			<li><a href="portfolio.html"><strong>projects</strong></a></li>
 			<li><a href="bio.html"><strong>bio</strong></a></li>
 		</ul>
 	</div>
@@ -108,7 +106,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 			<h1><strong>Dimitri Ntempos</strong></h1>
 			<h2><strong>Freelance Project Manager</strong></h2>
 			</br>
-			<p><strong>hi! my name is dimitri. my passion is to design, implement and support tech products. in my previous life i was an Art Monkey, currently i paint; write; backlog; manage executions; market and communicate. alongside daytime i love devoting time and energy for projects adding value to the community</strong></p>
+			<p><strong>hi! my name is dimitri. my passion is to design, implement and support tech products. in my previous life i was an Art Monkey, currently i do paint; write; backlog; manage executions; market and communicate. alongside daytime i love devoting time and energy for projects adding value to the community</strong></p>
 			</br>
 			<h5><strong>Wanna talk? print a line</strong></h5>
 				<form class="form-horizontal" role="form" method="post" action="index.php">
