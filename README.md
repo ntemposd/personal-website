@@ -3,11 +3,11 @@
 
 This is the code of my personal website; being always under development 
 
-don't try to use it before i document it :)
+don't try to use it before I document it :)
 
 **next up**: 
 -------------------------------
 
 * move contact-form in a different page
 * change slider to project boxes - sliders became outdated after 2004 :)
-* document website's code      
+* fully document website's code      
