@@ -9,5 +9,6 @@ don't try to use it before I document it :)
 -------------------------------
 
 * move contact-form in a different page
-* change slider to project boxes - sliders became outdated after 2004 :)
-* fully document website's code      
+* change slider to projects timeline - sliders became outdated after 2004 :)
+* add link to my blogposts
+* fully document website's code
