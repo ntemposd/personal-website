@@ -1,5 +1,5 @@
 # personal-webplace
-## simple responsive 3-page personal website
+## simple responsive 4-page personal website
 
 This is the code of my personal website; being always under development 
 
