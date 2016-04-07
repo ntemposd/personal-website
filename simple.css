@@ -5,7 +5,7 @@ html,body {
 	background: url(bg1.png) no-repeat center center fixed;
 	color: #ffffff;
 	margin-bottom: 0px !important;
-}	
+}
 
 ul,li {
 	margin-left: 0px !important;
@@ -26,6 +26,10 @@ a:hover {
 
 .form-control{
 	width: 50%;
+}
+
+.btn{
+	background-color: black;
 }
 
 .btn-primary{
@@ -105,7 +109,7 @@ a:hover {
 .footer {
 	opacity: 0.95;
 	text-align: center;
-}	
+}
 }
 
 @media (max-width: 481px){
@@ -140,10 +144,10 @@ a:hover {
 	padding-right: 15%;
 	padding-left: 15%;
 	font-size: small;
-	}	
+	}
 ul{
 	text-align: center;
-}	
+}
 }
 
 @media (max-width: 1025px){
@@ -152,8 +156,8 @@ ul{
 	padding-right: 15%;
 	padding-left: 15%;
 	font-size: small;
-	}	
+	}
 ul {
 	text-align: center;
-}	
+}
 }
