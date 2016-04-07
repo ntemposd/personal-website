@@ -4,20 +4,25 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- lovingly created with www.xml-sitemaps.com -->
 
 <url>
   <loc>http://ntemposd.me/</loc>
 </url>
 <url>
+  <loc>http://ntemposd.me/index.html</loc>
+  <lastmod>2016-07-04T02:44:36+00:00</lastmod>
+</url>
+<url>
   <loc>http://ntemposd.me/portfolio.html</loc>
-  <lastmod>2016-02-01T02:44:36+00:00</lastmod>
+  <lastmod>2016-07-04T02:44:36+00:00</lastmod>
 </url>
 <url>
   <loc>http://ntemposd.me/bio.html</loc>
-  <lastmod>2016-02-01T02:44:35+00:00</lastmod>
+  <lastmod>2016-07-04T02:44:35+00:00</lastmod>
 </url>
 <url>
-  <loc>http://ntemposd.me/index.php</loc>
+  <loc>http://ntemposd.me/hi.php</loc>
 </url>
 </urlset>
+
+<!-- created with www.xml-sitemaps.com -->
