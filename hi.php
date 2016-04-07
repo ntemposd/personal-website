@@ -109,13 +109,13 @@ if (!$errName && !$errEmail && !$errMessage) {
         </div>
         <div class="form-group">
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="an email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+            <input type="email" class="form-control" id="email" name="email" placeholder="your e-mail" value="<?php echo htmlspecialchars($_POST['email']); ?>">
             <?php echo "<p class='text-danger'>$errEmail</p>";?>
           </div>
         </div>
         <div class="form-group">
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="a name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+            <input type="text" class="form-control" id="name" name="name" placeholder="your name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
             <?php echo "<p class='text-danger'>$errName</p>";?>
           </div>
         </div>
