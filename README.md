@@ -8,7 +8,6 @@ don't try to use it before I document it :)
 **next up**: 
 -------------------------------
 
-* fix unsecure inputs
 * change slider to projects timeline - sliders became outdated after 2004 :)
 * add link to my blogposts
 * fully document website's code
