@@ -1,9 +1,9 @@
 html,body {
 	height: 100%;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Open Sans", Monaco, monospace;
 	padding-bottom: 40px !important;
-	background: url(bg1.png) no-repeat center center fixed;
-	color: #ffffff;
+	/*background: url(bg1.png) no-repeat center center fixed;*/
+	color: #000000;
 	margin-bottom: 0px !important;
 }
 
@@ -12,6 +12,16 @@ ul,li {
 	padding-left: 0px !important;
 	display: inline;
 	color: #ffffff;
+}
+
+.title {
+	position:sticky;
+	vertical-align: bottom;
+}
+
+.round {
+border-radius: 50%;
+overflow: hidden;
 }
 
 a{
