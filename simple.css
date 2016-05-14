@@ -14,14 +14,13 @@ ul,li {
 	color: #ffffff;
 }
 
-.title {
-	position:sticky;
-	vertical-align: bottom;
-}
 
 .round {
-border-radius: 50%;
-overflow: hidden;
+	border-radius: 50%;
+}
+
+.media-bottom {
+	padding-left: 5px;
 }
 
 a{
@@ -110,6 +109,11 @@ a:hover {
 }
 
 @media (max-width:320px){
+
+	h1{
+		font-size: xx-large !important;
+	}
+
 .xp{
 	padding-top: 13px;
 	padding-right: 3%;
@@ -123,6 +127,11 @@ a:hover {
 }
 
 @media (max-width: 481px){
+
+	h2{
+		font-size: large !important;
+	}
+
 .xp{
 	padding-top: 13px;
 	padding-right: 5%;
@@ -136,6 +145,12 @@ a:hover {
 }
 
 @media (max-width: 641px){
+
+	.media-bottom {
+		padding-top: 10px;
+		padding-left: 0px;
+		float:left;
+	}
 .xp{
 	padding-top: 13px;
 	padding-right: 15%;
