@@ -1,9 +1,9 @@
 html,body {
 	height: 100%;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Open Sans", Monaco, monospace;
 	padding-bottom: 40px !important;
-	background: url(bg1.png) no-repeat center center fixed;
-	color: #ffffff;
+	/*background: url(bg1.png) no-repeat center center fixed;*/
+	color: #000000;
 	margin-bottom: 0px !important;
 }
 
@@ -12,6 +12,36 @@ ul,li {
 	padding-left: 0px !important;
 	display: inline;
 	color: #ffffff;
+}
+
+#call{
+	text-align: right;
+}
+
+#just{
+	text-align: justify;
+}
+
+#underdev{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.glyphicon-wrench {
+    align: center;
+		font-size: 59px;
+}
+
+
+.round {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #660198;
+	border-radius: 50%;
+}
+
+.media-bottom {
+	padding-left: 5px;
 }
 
 a{
@@ -24,7 +54,7 @@ a:hover {
 }
 
 
-.form-control{
+.form-control {
 	width: 50%;
 }
 
@@ -100,6 +130,11 @@ a:hover {
 }
 
 @media (max-width:320px){
+
+	h1{
+		font-size: xx-large !important;
+	}
+
 .xp{
 	padding-top: 13px;
 	padding-right: 3%;
@@ -113,6 +148,11 @@ a:hover {
 }
 
 @media (max-width: 481px){
+
+	h2{
+		font-size: large !important;
+	}
+
 .xp{
 	padding-top: 13px;
 	padding-right: 5%;
@@ -126,6 +166,13 @@ a:hover {
 }
 
 @media (max-width: 641px){
+
+	
+	.media-bottom {
+		padding-top: 10px;
+		padding-left: 0px;
+		float:left;
+	}
 .xp{
 	padding-top: 13px;
 	padding-right: 15%;
