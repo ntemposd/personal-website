@@ -14,8 +14,29 @@ ul,li {
 	color: #ffffff;
 }
 
+#call{
+	text-align: right;
+}
+
+#just{
+	text-align: justify;
+}
+
+#underdev{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.glyphicon-wrench {
+    align: center;
+		font-size: 59px;
+}
+
 
 .round {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #660198;
 	border-radius: 50%;
 }
 
@@ -33,7 +54,7 @@ a:hover {
 }
 
 
-.form-control{
+.form-control {
 	width: 50%;
 }
 
@@ -146,6 +167,7 @@ a:hover {
 
 @media (max-width: 641px){
 
+	
 	.media-bottom {
 		padding-top: 10px;
 		padding-left: 0px;
