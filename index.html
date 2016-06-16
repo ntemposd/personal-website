@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="https://schema.org/ProfessionalService">
+<html lang="en"  class="no-js" itemscope itemtype="https://schema.org/ProfessionalService">
 
 <head>
 	<meta charset="utf-8"/>
@@ -35,9 +35,11 @@
 	<meta name="google-site-verification" content="FjshGj1evrk5_Iod2Kl7aUe5-861Lq1FD15uo9y87Zs" />
 
 	<!-- Style -->
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="simple.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+	<script src="modernizr.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -50,62 +52,132 @@
 	</script>
 </head>
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collaps" aria-expanded="false">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-		</button>
-	</div>
-  </div>
-	<div class="collapse navbar-collapse" id="collaps">
-		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-			<li><a href="portfolio.html"><span class="glyphicon glyphicon-info-sign"></span>  Portfolio</a></li>
-			<li><a href="bio.html"><span class="glyphicon glyphicon-user"></span>  Bio</a></li>
-		</ul>
-	</div>
-</nav>
-
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
+		<div class="col-md-1"></div>
 		<div class="col-md-6">
-			<div class="media">
-
-				<div class="media-left">
-				    <img class="media-object round" src="pr.png" alt="Oups!">
-				</div>
-				<div class="media-body media-bottom">
-						<h1 class="media-heading"><strong>Dimitri Ntempos</strong></h1>
-						<h2 class="media-heading"><strong>Freelance Product Manager</strong></h2>
-				</div>
-			</div>
 		</br>
-		<p><strong>Hi! I am Dimitris. My passion is to design, implement and support tech products. In my previous life I was an Art Monkey, currently, I am connecting business and production parts on the road to succesful product deliveries. I do paint; write; backlog; manage executions; market and communicate. Alongside daytime I love devoting time and energy for projects adding value to the community</strong></p>
+			<h1 id="center"><strong>Dimitri Ntempos</strong></h1>
+			<h2 id="center"><strong>Freelance Product Manager</strong></h2>
 		</br>
-		<p id="call"><strong>Wanna talk?  </strong><a href="hi.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-envelope"></span></a></p>
+			<p>Hi! I am Dimitris. I do paint; write; backlog; manage executions; communicate and keep business missions aligned with production, on the road to succesful product deliveries. Alongside daytime I love devoting time and energy for adding value to the community</p>
+		</br>
+			<p id="center">Wanna talk? <a href="hi.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-envelope"></span></a></p>
 		</div>
-		<div class="col-md-3"></div>
+		<div class="col-md-5"></div>
 	</div>
 </div>
-
-<div class="pad"></div>
-
-<footer class="footer">
-	<div class="container-fluid">
-		<ul>
-			<li><a href="mailto:ntemposd@gmail.com?"><img src="m.png" alt="f"></a></li>
-			<li><a href="http://www.twitter.com/ntemposd"><img src="t.png" alt="t"></a></li>
-			<li><a href="http://www.linkedin.com/in/ntemposd"><img src="l.png" alt="l"></a></li>
-			<li><a href="http://www.facebook.com/ntemposd"><img src="f.png" alt="f"></a></li>
-			<li><a href="http://www.github.com/ntemposd"><img src="g.png" alt="f"></a></li>
-			<li><a href="http://www.instagram.com/ntemposd"><img src="i.png" alt="f"></a></li>
-		</ul>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-6">
+			<hr>
+			<h3 id="center"><strong>Featured Work</strong></h3>
+		</br>
+			<section id="timeline">
+				<div class="timeline-block">
+					<div class="timeline-img picture">
+						<img src="img/icon-picture.svg" alt="Picture">
+					</div> <!-- timeline-img -->
+					<div class="timeline-content">
+						<h4>DEVit</h4>
+						<p>Set up parts for the biggest software development conference in Greece</p>
+						<h5> Financial Analysis</h5>
+						<h5> Account Management</h5>
+						<h5> Operations</h5>
+						<a href="http://devitconf.org/" class="read-more">Reach DEVit</a>
+						<span class="date">2016</span>
+					</div> <!-- timeline-content -->
+				</div> <!-- timeline-block -->
+				<div class="timeline-block">
+					<div class="timeline-img movie">
+						<img src="img/icon-movie.svg" alt="Movie">
+					</div> <!-- timeline-img -->
+					<div class="timeline-content">
+						<h4>Playboard</h4>
+						<p>Cooked a new product and its market entry roadmap through kickstarter</p>
+						<h5> Financial Analysis</h5>
+						<h5> UX Design</h5>
+						<h5> Product Management</h5>
+						<a href="#0" class="read-more">Meet codebender</a>
+						<span class="date">2015</span>
+					</div> <!-- timeline-content -->
+				</div> <!-- timeline-block -->
+				<div class="timeline-block">
+					<div class="timeline-img picture">
+						<img src="img/icon-picture.svg" alt="Picture">
+					</div> <!-- timeline-img -->
+					<div class="timeline-content">
+						<h4>Sociallgreen</h4>
+						<p>Bootstraped a venture to change recycling &amp; failed</p>
+						<h5> Marketing Management</h5>
+						<h5> Product Management</h5>
+						<h5> Operations</h5>
+						<a href="#0" class="read-more">Get on Sociallgreen</a>
+						<span class="date">2014</span>
+					</div> <!-- timeline-content -->
+				</div> <!-- timeline-block -->
+				<div class="timeline-block">
+					<div class="timeline-img location">
+						<img src="img/icon-location.svg" alt="Location">
+					</div> <!-- timeline-img -->
+					<div class="timeline-content">
+						<h4>Academic</h4>
+						<p>Co-authored a booklet for recommendations on Location-based Social Networks</p>
+						<a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-1-4939-0285-9#" class="read-more">Get Book</a>
+						<span class="date">2013</span>
+					</div> <!-- timeline-content -->
+				</div> <!-- timeline-block -->
+			</section> <!-- timeline -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="main.js"></script> <!-- Resource jQuery -->
+		</div>
+		<div class="col-md-5"></div>
 	</div>
-</footer>
-
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-6">
+			<hr>
+			<h3 id="center"><strong>Little Bits of me</strong></h3>
+		</br>
+			<h4><strong>Economics</strong></h4>
+			<p>At the age of 18 I decided to pursue my studies in Economics. Although I was doing pretty well,
+			standalone economics couldn't keep my passion levels high enough.
+			At the age of 25 I was still struggling to find the job that makes me
+			happy and deeply felt like it was time for a change</p>
+		</br>
+			<h4><strong>Computer Science</strong></h4>
+			<p>The game changer decision back then was to pursue an MSc in Informatics. Guess what happened!
+			I am still on it having a big smile stuck on my face! During daytime I use my interdisciplinary background
+			as the bridge between business and technology while during nights I enjoy geek community gatherings.
+			Some of you may call me product manager; well, I call myself a hybrid</p>
+		</br>
+			<h4><strong>Besides Work</strong></h4>
+			<p>I do enjoy nature, time with friends, beers, playing basketball, traveling, camping, and hobby-coding</p>
+		</div>
+		<div class="col-md-5"></div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-6" id="center">
+		<hr>
+		<h3><strong>Let's meet around the WEB</strong></h3>
+	</br>
+<ul>
+	<li><a href="mailto:ntemposd@gmail.com?"><img src="m.png" alt="f"></a></li>
+	<li><a href="http://www.twitter.com/ntemposd"><img src="t.png" alt="t"></a></li>
+	<li><a href="http://www.linkedin.com/in/ntemposd"><img src="l.png" alt="l"></a></li>
+	<li><a href="http://www.facebook.com/ntemposd"><img src="f.png" alt="f"></a></li>
+	<li><a href="http://www.github.com/ntemposd"><img src="g.png" alt="f"></a></li>
+	<li><a href="http://www.instagram.com/ntemposd"><img src="i.png" alt="f"></a></li>
+</ul>
+	</div>
+	<div class="col-md-5"></div>
+</div>
+</div>
 </body>
 </html>
