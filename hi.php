@@ -37,35 +37,12 @@ if (!$errName && !$errEmail && !$errMessage) {
 <head>
 	<meta charset="utf-8"/>
 
-	<title>Dimitri Ntempos</title>
-	<meta http-equiv="Content-Type" content="text/html">
-	<meta name="keywords" content="Tech, Agile, Product Management, Marketing, Financial">
-	<meta name="author" content="Dimitri Ntempos">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- Schema.org markup for Google+ -->
-	<meta itemprop="name" content="Dimitri Ntempos Personal Page">
-	<meta itemprop="description" content="Hi! I'm Dimitri! Wanna work with me?">
-	<meta itemprop="image" content="http://ntemposd.me/bg.png">
-
-	<!-- Twitter Card data -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@ntemposd">
-	<meta name="twitter:title" content="Welcome to my Page!">
-	<meta name="twitter:image" content="http://ntemposd.me/bg.png">
-	<meta name="twitter:description" content="Hey! i am Dimitri! Wanna work with me?">
-
-	<!-- Open Graph data -->
-	<meta property="og:title" content="Dimitri Ntempos">
-	<meta property="og:description" content="Freelance Project Manager">
-	<meta property="og:url" content="http://ntemposd.me/">
-	<meta property="og:image" content="http://ntemposd.me/bg.png">
-	<meta property="og:type" content="professional.website">
-
+	<title>Contact Dimitri Ntempos</title>
 	<!-- Style -->
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="simple.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -78,28 +55,11 @@ if (!$errName && !$errEmail && !$errMessage) {
 	</script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collaps" aria-expanded="false">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-			</button>
-		</div>
-	  </div>
-		<div class="collapse navbar-collapse" id="collaps">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-				<li><a href="portfolio.html"><span class="glyphicon glyphicon-info-sign"></span>  Portfolio</a></li>
-				<li><a href="bio.html"><span class="glyphicon glyphicon-user"></span>  Bio</a></li>
-			</ul>
-		</div>
-	</nav>
 <div class="container-fluid">
 	<div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6">
+		</br>
       <form class="form-horizontal" role="form" method="post" action="hi.php">
         <div class="form-group">
           <div class="col-sm-10">
@@ -132,18 +92,5 @@ if (!$errName && !$errEmail && !$errMessage) {
       </form>
     </div>
     <div class="col-lg-3"></div>
-<div class="pad"></div>
-<footer class="footer">
-  <div class="container-fluid">
-    <ul>
-      <li><a href="mailto:ntemposd@gmail.com?"><img src="m.png" alt="f"></a></li>
-      <li><a href="http://www.twitter.com/ntemposd"><img src="t.png" alt="t"></a></li>
-      <li><a href="http://www.linkedin.com/in/ntemposd"><img src="l.png" alt="l"></a></li>
-      <li><a href="http://www.facebook.com/ntemposd"><img src="f.png" alt="f"></a></li>
-      <li><a href="http://www.github.com/ntemposd"><img src="g.png" alt="f"></a></li>
-      <li><a href="http://www.instagram.com/ntemposd"><img src="i.png" alt="f"></a></li>
-    </ul>
-  </div>
-</footer>
 </body>
 </html>
