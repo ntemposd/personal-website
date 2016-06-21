@@ -43,7 +43,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="simple.css">
 	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -69,13 +69,13 @@ if (!$errName && !$errEmail && !$errMessage) {
         </div>
         <div class="form-group">
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="an email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
             <?php echo "<p class='text-danger'>$errEmail</p>";?>
           </div>
         </div>
         <div class="form-group">
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="a name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
             <?php echo "<p class='text-danger'>$errName</p>";?>
           </div>
         </div>
@@ -92,5 +92,6 @@ if (!$errName && !$errEmail && !$errMessage) {
       </form>
     </div>
     <div class="col-lg-3"></div>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
