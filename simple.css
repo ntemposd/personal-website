@@ -11,14 +11,20 @@ html * {
 
 body {
   font-family: 'PT Sans Narrow', sans-serif;
-  background: #d3d3d3;
-  font-size: 16px;
+  background: #e4e4e4;
+  font-size: 18px;
 }
 
 h1,h2,h3,h4,h6 {
   font-weight: bold;
   margin-top: 0px;
 }
+
+@media only screen and (max-width: 1170px) {
+  h1{
+    margin-top: 5px;
+    }
+  }
 
 h4{
   color: #660198;
@@ -42,28 +48,24 @@ h5:before{
 	color: #660198;
 }
 
-#test{
+#header{
   background: #0f0f0f;
   color: white;
   padding-top: 30px;
   padding-bottom: 15px;
-  border-top: 2px solid #660198;;
-  border-bottom: 2px solid #660198;;
+  border-top: 2px solid #660198;
+  border-bottom: 2px solid #660198;
 }
 
-
-#test > ul,li {
+#header > ul,li {
   display: inline;
 }
 
-a{
-	color: #ffffff;
-	text-decoration: none !important;
-}
-
-a:hover {
-    color: #660198;
-}
+@media only screen and (max-width: 1170px) {
+  #header{
+    text-align: center;
+    }
+  }
 
 #center {
 	text-align: center;
@@ -81,6 +83,7 @@ a:hover {
   border-width: 1px;
   border-color: white;
   border-radius: 50%;
+  text-align: center;
 }
 
 /* hi.php */
@@ -90,19 +93,18 @@ a:hover {
 
 .btn{
 	background-color: black;
+  margin-bottom: 15px;
+  border: 2px solid black;
 }
 
-.btn-primary{
-	background: black;
-}
-
-.btn-primary:hover {
+.btn:hover {
 	background: #660198;
+  border-color: black;
 }
 
 .container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 80%;
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width
+  width: 80%; */
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -127,7 +129,7 @@ a:hover {
   left: 18px;
   height: 100%;
   width: 2px !important;
-  background:  #660198;
+  background:  #ffffff;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -138,7 +140,7 @@ a:hover {
   #timeline:before {
     left: 50%;
     margin-left: -2px;
-		background: #d7e4ed;
+		background: #ffffff;
   }
 }
 
@@ -178,25 +180,20 @@ a:hover {
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-.timeline-img img {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -16px;
-  margin-top: -16px;
-}
+
 .timeline-img.devit {
-  background: #75ce66;
-}
-.timeline-img.movie {
-  background: #c03b44;
-}
-.timeline-img.location {
   background: #f0ca45;
 }
+.timeline-img.playboard {
+  background: #75ce66;
+}
+.timeline-img.sociallgreen {
+  background: #c03b44;
+}
+.timeline-img.academic {
+  background: #660198;
+}
+
 @media only screen and (min-width: 1170px) {
   .timeline-img {
     width: 60px;
@@ -207,15 +204,37 @@ a:hover {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
-  .cssanimations .timeline-img.is-hidden {
-    visibility: hidden;
+}
+
+.timeline-img img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+@media only screen and (max-width: 1170px) {
+  .timeline-img img {
+    width: 24px;
+    height: 24px;
+    margin-left: -12px !important;
+    margin-top: -12px !important;
   }
-  .cssanimations .timeline-img.bounce-in {
-    visibility: visible;
-    -webkit-animation: bounce-1 0.6s;
-    -moz-animation: bounce-1 0.6s;
-    animation: bounce-1 0.6s;
-  }
+}
+
+.cssanimations .timeline-img.is-hidden {
+  visibility: hidden;
+}
+.cssanimations .timeline-img.bounce-in {
+  visibility: visible;
+  -webkit-animation: bounce-1 0.6s;
+  -moz-animation: bounce-1 0.6s;
+  animation: bounce-1 0.6s;
+}
 }
 
 @-webkit-keyframes bounce-1 {
@@ -283,7 +302,7 @@ a:hover {
   background: white;
   border-radius: 5px;
   padding: 1em;
-  box-shadow: 0 3px 0 black;
+  box-shadow: 0 3px 0 #999;
 }
 .timeline-content:after {
   content: "";
@@ -304,6 +323,7 @@ a:hover {
 }
 .timeline-content .read-more {
   float: right;
+  font-size: 14px;
   padding: .8em 1em;
   background: #660198;
   color: white;
@@ -330,7 +350,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
 
   .timeline-content .read-more, .timeline-content .date {
-    font-size: 14px;
+    font-size: 12px;
     font-size: 0.875rem;
   }
 }
@@ -348,6 +368,8 @@ a:hover {
   }
   .timeline-content .read-more {
     float: left;
+    font-size: 14px;
+    margin-top: 4px;
   }
   .timeline-content .date {
     position: absolute;
